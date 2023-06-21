@@ -1,0 +1,87 @@
+/**Common styles*/
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/**Header styles*/
+.header {
+}
+.header-nav {
+}
+.header-logo {
+}
+
+.header-list {
+}
+.header-item {
+}
+.header-link {
+}
+.adress {
+}
+.adress-list {
+}
+.adress-item {
+}
+.adress-link {
+}
+
+/**Hero styles*/
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+/**Features styles*/
+.features {
+}
+.feature-title {
+}
+.feature-list {
+}
+.feature-item {
+}
+.feature-subtitle {
+}
+.text {
+}
+/**Production styles*/
+.production {
+}
+.production-title {
+}
+.production-list {
+}
+.production-item {
+}
+.production-img {
+}
+/**Team styles*/
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-card {
+}
+.team-subtitle {
+}
+.team-desc {
+}
+/**Footer styles*/
+.footer {
+}
+.footer-logo {
+}
+.footer-text {
+}
