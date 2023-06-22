@@ -20,6 +20,7 @@ body {
 .link {
   text-decoration: none;
 }
+
 /**Header styles*/
 .header {
   background-color: var(--main-white-cl);
@@ -48,16 +49,19 @@ body {
 }
 .header-list {
 }
-.header-item .link:hover,
-.link:active {
-  color: var(--btn-cl);
+.header-item {
 }
+
 .header-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-title-cl);
+}
+.header-link .link:hover,
+.header-link .link:focus {
+  color: var(--btn-cl);
 }
 
 .adress {
@@ -66,9 +70,7 @@ body {
 .adress-list {
 }
 
-.adress-item .link:hover,
-.link:active {
-  color: var(--btn-cl);
+.adress-item {
 }
 
 .adress-link {
@@ -78,6 +80,10 @@ body {
   color: var(--main-dark-cl);
 }
 
+.adress-link .link:hover,
+.adress-link .link:focus {
+  color: var(--btn-cl);
+}
 /**Hero styles*/
 .hero {
   background-color: var(--dark-title-cl);
@@ -160,6 +166,7 @@ body {
 .team-list {
 }
 .team-item {
+  background-color: var(--main-white-cl);
 }
 .team-card {
 }
