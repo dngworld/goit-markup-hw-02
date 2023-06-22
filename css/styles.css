@@ -49,7 +49,9 @@ body {
 }
 .header-list {
 }
-.header-item {
+.header-item .link:hover,
+.header-item .link:focus {
+  color: var(--btn-cl);
 }
 
 .header-link {
@@ -59,10 +61,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-title-cl);
 }
-.header-link .link:hover,
-.header-link .link:focus {
-  color: var(--btn-cl);
-}
 
 .adress {
   font-style: normal;
@@ -70,7 +68,9 @@ body {
 .adress-list {
 }
 
-.adress-item {
+.adress-item .link:hover,
+.adress-item .link:focus {
+  color: var(--btn-cl);
 }
 
 .adress-link {
@@ -80,10 +80,6 @@ body {
   color: var(--main-dark-cl);
 }
 
-.adress-link .link:hover,
-.adress-link .link:focus {
-  color: var(--btn-cl);
-}
 /**Hero styles*/
 .hero {
   background-color: var(--dark-title-cl);
@@ -107,7 +103,7 @@ body {
   cursor: pointer;
 }
 .hero-btn .link:hover,
-.link:active {
+.hero-btn .link:active {
   background-color: var(--btn-cl);
 }
 /**Features styles*/
@@ -211,8 +207,8 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--main-white-cl);
-  background-color: var(--btn-cl);
+  color: var(--acent-cl);
+  background-color: var(--white-bg-cl);
   cursor: pointer;
 }
 
