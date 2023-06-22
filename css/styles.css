@@ -49,9 +49,7 @@ body {
 }
 .header-list {
 }
-.header-item .link:hover,
-.header-item .link:focus {
-  color: var(--btn-cl);
+.header-item {
 }
 
 .header-link {
@@ -61,25 +59,28 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-title-cl);
 }
-
+.header-link:hover,
+.header-link:focus {
+  color: var(--btn-cl);
+}
 .adress {
   font-style: normal;
 }
 .adress-list {
 }
 
-.adress-item .link:hover,
-.adress-item .link:focus {
-  color: var(--btn-cl);
+.adress-item {
 }
-
 .adress-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-dark-cl);
 }
-
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--btn-cl);
+}
 /**Hero styles*/
 .hero {
   background-color: var(--dark-title-cl);
@@ -102,8 +103,8 @@ body {
   background-color: var(--acent-cl);
   cursor: pointer;
 }
-.hero-btn .link:hover,
-.hero-btn .link:active {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--btn-cl);
 }
 /**Features styles*/
@@ -200,28 +201,21 @@ body {
 
 .filter-item {
 }
-.filter-btn-one {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--acent-cl);
-  background-color: var(--white-bg-cl);
-  cursor: pointer;
-}
 
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--acent-cl);
   background-color: var(--white-bg-cl);
   cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--main-white-cl);
+  background-color: var(--btn-cl);
 }
 
 .portfolio-img {
